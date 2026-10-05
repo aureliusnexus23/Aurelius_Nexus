@@ -67,16 +67,16 @@
 
     scene.add(new THREE.AmbientLight(0xffffff, 0.2));
 
-    const key = new THREE.PointLight(0xd4b26a, 2.4, 30);
+    const key = new THREE.PointLight(0xc5ccd6, 2.4, 30);
     key.position.set(4, 4, 5);
     scene.add(key);
 
-    const rim = new THREE.PointLight(0xf2ebdd, 1.6, 30);
+    const rim = new THREE.PointLight(0xeef1f6, 1.6, 30);
     rim.position.set(-5, -3, 4);
     scene.add(rim);
 
     if (quality === 'high') {
-      const back = new THREE.PointLight(0xc9a35a, 1.2, 30);
+      const back = new THREE.PointLight(0xc4ccd6, 1.2, 30);
       back.position.set(0, 0, -6);
       scene.add(back);
     }
@@ -87,11 +87,11 @@
     const innerMesh = new THREE.Mesh(
       new THREE.IcosahedronGeometry(1.0, 0),
       new THREE.MeshStandardMaterial({
-        color: 0xc9a35a,
+        color: 0xc4ccd6,
         metalness: 1.0,
         roughness: 0.22,
         flatShading: true,
-        emissive: 0x4a3614,
+        emissive: 0x3d4450,
         emissiveIntensity: 0.5,
       })
     );
@@ -100,7 +100,7 @@
     const midMesh = new THREE.Mesh(
       new THREE.OctahedronGeometry(1.6, 0),
       new THREE.MeshBasicMaterial({
-        color: 0xd4b26a,
+        color: 0xc5ccd6,
         wireframe: true,
         transparent: true,
         opacity: 0.55,
@@ -111,7 +111,7 @@
     const outerMesh = new THREE.Mesh(
       new THREE.IcosahedronGeometry(2.3, quality === 'high' ? 1 : 0),
       new THREE.MeshBasicMaterial({
-        color: 0xc9a35a,
+        color: 0xc4ccd6,
         wireframe: true,
         transparent: true,
         opacity: 0.18,
@@ -124,7 +124,7 @@
       haloMesh = new THREE.Mesh(
         new THREE.DodecahedronGeometry(3.0, 0),
         new THREE.MeshBasicMaterial({
-          color: 0xf7eed1,
+          color: 0xf4f6f8,
           wireframe: true,
           transparent: true,
           opacity: 0.08,
@@ -135,7 +135,7 @@
 
     const ringGeo = new THREE.TorusGeometry(2.7, 0.008, 8, quality === 'high' ? 128 : 64);
     const ringMat = new THREE.MeshBasicMaterial({
-      color: 0xd4b26a,
+      color: 0xc5ccd6,
       transparent: true,
       opacity: 0.4,
     });
@@ -168,7 +168,7 @@
     const particles = new THREE.Points(
       pGeo,
       new THREE.PointsMaterial({
-        color: 0xd4b26a,
+        color: 0xc5ccd6,
         size: 0.025,
         transparent: true,
         opacity: 0.7,
@@ -192,7 +192,7 @@
       dust = new THREE.Points(
         dustGeo,
         new THREE.PointsMaterial({
-          color: 0xf7eed1,
+          color: 0xf4f6f8,
           size: 0.018,
           transparent: true,
           opacity: 0.9,
@@ -338,10 +338,10 @@
     window.addEventListener('resize', resize, { passive: true });
 
     scene.add(new THREE.AmbientLight(0xffffff, 0.4));
-    const dl = new THREE.DirectionalLight(0xd4b26a, 1.6);
+    const dl = new THREE.DirectionalLight(0xc5ccd6, 1.6);
     dl.position.set(2, 3, 4);
     scene.add(dl);
-    const dl2 = new THREE.DirectionalLight(0xf2ebdd, 0.8);
+    const dl2 = new THREE.DirectionalLight(0xeef1f6, 0.8);
     dl2.position.set(-3, -2, 2);
     scene.add(dl2);
 
@@ -351,11 +351,11 @@
     const core = new THREE.Mesh(
       new THREE.OctahedronGeometry(0.9, 0),
       new THREE.MeshStandardMaterial({
-        color: 0xc9a35a,
+        color: 0xc4ccd6,
         metalness: 1,
         roughness: 0.25,
         flatShading: true,
-        emissive: 0x3a2a10,
+        emissive: 0x2c323c,
         emissiveIntensity: 0.4,
       })
     );
@@ -367,7 +367,7 @@
       const s = new THREE.Mesh(
         new THREE.IcosahedronGeometry(1.2 + i * 0.35, 0),
         new THREE.MeshBasicMaterial({
-          color: 0xd4b26a,
+          color: 0xc5ccd6,
           wireframe: true,
           transparent: true,
           opacity: 0.35 - i * 0.08,
@@ -383,10 +383,10 @@
       const o = new THREE.Mesh(
         new THREE.TetrahedronGeometry(0.08, 0),
         new THREE.MeshStandardMaterial({
-          color: 0xf7eed1,
+          color: 0xf4f6f8,
           metalness: 1,
           roughness: 0.2,
-          emissive: 0xd4b26a,
+          emissive: 0xc5ccd6,
           emissiveIntensity: 0.6,
         })
       );

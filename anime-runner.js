@@ -124,22 +124,22 @@
           <path d="M28 40 L48 22 L72 22 L92 40" stroke="#eef1f6" stroke-width="2" stroke-linejoin="round"/>
           <path d="M48 22 L48 14 M44 14 H56" stroke="#eef1f6" stroke-width="2" stroke-linecap="round"/>
           <path d="M72 22 L78 14 H88" stroke="#eef1f6" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="60" cy="28" r="3" fill="#8a6a2a"/>
+          <circle cx="60" cy="28" r="3" fill="#8d95a3"/>
           <g class="av-wheel av-wheel-r" data-cx="92" data-cy="40" transform="translate(92 40) rotate(0)">
-            <circle cx="0" cy="0" r="12" stroke="#d0a84c" stroke-width="2.5" fill="none"/>
-            <line x1="0" y1="-11" x2="0" y2="11" stroke="#d0a84c" stroke-width="1.3"/>
-            <line x1="-11" y1="0" x2="11" y2="0" stroke="#d0a84c" stroke-width="1.3"/>
-            <line x1="-7.8" y1="-7.8" x2="7.8" y2="7.8" stroke="#d0a84c" stroke-width="1" opacity="0.75"/>
-            <line x1="7.8" y1="-7.8" x2="-7.8" y2="7.8" stroke="#d0a84c" stroke-width="1" opacity="0.75"/>
-            <circle cx="0" cy="0" r="2.8" fill="#d0a84c"/>
+            <circle cx="0" cy="0" r="12" stroke="#d0d5dc" stroke-width="2.5" fill="none"/>
+            <line x1="0" y1="-11" x2="0" y2="11" stroke="#d0d5dc" stroke-width="1.3"/>
+            <line x1="-11" y1="0" x2="11" y2="0" stroke="#d0d5dc" stroke-width="1.3"/>
+            <line x1="-7.8" y1="-7.8" x2="7.8" y2="7.8" stroke="#d0d5dc" stroke-width="1" opacity="0.75"/>
+            <line x1="7.8" y1="-7.8" x2="-7.8" y2="7.8" stroke="#d0d5dc" stroke-width="1" opacity="0.75"/>
+            <circle cx="0" cy="0" r="2.8" fill="#d0d5dc"/>
           </g>
           <g class="av-wheel av-wheel-f" data-cx="28" data-cy="40" transform="translate(28 40) rotate(0)">
-            <circle cx="0" cy="0" r="12" stroke="#d0a84c" stroke-width="2.5" fill="none"/>
-            <line x1="0" y1="-11" x2="0" y2="11" stroke="#d0a84c" stroke-width="1.3"/>
-            <line x1="-11" y1="0" x2="11" y2="0" stroke="#d0a84c" stroke-width="1.3"/>
-            <line x1="-7.8" y1="-7.8" x2="7.8" y2="7.8" stroke="#d0a84c" stroke-width="1" opacity="0.75"/>
-            <line x1="7.8" y1="-7.8" x2="-7.8" y2="7.8" stroke="#d0a84c" stroke-width="1" opacity="0.75"/>
-            <circle cx="0" cy="0" r="2.8" fill="#d0a84c"/>
+            <circle cx="0" cy="0" r="12" stroke="#d0d5dc" stroke-width="2.5" fill="none"/>
+            <line x1="0" y1="-11" x2="0" y2="11" stroke="#d0d5dc" stroke-width="1.3"/>
+            <line x1="-11" y1="0" x2="11" y2="0" stroke="#d0d5dc" stroke-width="1.3"/>
+            <line x1="-7.8" y1="-7.8" x2="7.8" y2="7.8" stroke="#d0d5dc" stroke-width="1" opacity="0.75"/>
+            <line x1="7.8" y1="-7.8" x2="-7.8" y2="7.8" stroke="#d0d5dc" stroke-width="1" opacity="0.75"/>
+            <circle cx="0" cy="0" r="2.8" fill="#d0d5dc"/>
           </g>
         </svg>
       </div>
@@ -147,77 +147,77 @@
         <svg viewBox="0 0 120 56" fill="none">
           <path d="M32 40 L48 28 L70 28 L88 40" stroke="#c4c9d4" stroke-width="2.2"/>
           <path d="M48 28 L52 16 H64" stroke="#c4c9d4" stroke-width="2" stroke-linecap="round"/>
-          <rect x="54" y="22" width="22" height="8" rx="3" fill="#1a1e28" stroke="#d0a84c" stroke-width="1.2"/>
-          <path d="M76 26 L88 18" stroke="#d0a84c" stroke-width="2" stroke-linecap="round"/>
-          <ellipse cx="62" cy="20" rx="10" ry="4" fill="#12151c" stroke="#d0a84c" stroke-width="1"/>
+          <rect x="54" y="22" width="22" height="8" rx="3" fill="#1a1e28" stroke="#d0d5dc" stroke-width="1.2"/>
+          <path d="M76 26 L88 18" stroke="#d0d5dc" stroke-width="2" stroke-linecap="round"/>
+          <ellipse cx="62" cy="20" rx="10" ry="4" fill="#12151c" stroke="#d0d5dc" stroke-width="1"/>
           <g class="av-wheel av-wheel-r" data-cx="88" data-cy="40" transform="translate(88 40) rotate(0)">
-            <circle cx="0" cy="0" r="11" stroke="#d0a84c" stroke-width="2.5" fill="#0a0c10"/>
-            <line x1="0" y1="-10" x2="0" y2="10" stroke="#d0a84c" stroke-width="1.4"/>
-            <line x1="-10" y1="0" x2="10" y2="0" stroke="#d0a84c" stroke-width="1.4"/>
+            <circle cx="0" cy="0" r="11" stroke="#d0d5dc" stroke-width="2.5" fill="#0a0c10"/>
+            <line x1="0" y1="-10" x2="0" y2="10" stroke="#d0d5dc" stroke-width="1.4"/>
+            <line x1="-10" y1="0" x2="10" y2="0" stroke="#d0d5dc" stroke-width="1.4"/>
             <line x1="-7" y1="-7" x2="7" y2="7" stroke="#c4c9d4" stroke-width="1" opacity="0.8"/>
             <line x1="7" y1="-7" x2="-7" y2="7" stroke="#c4c9d4" stroke-width="1" opacity="0.8"/>
-            <circle cx="0" cy="0" r="3" fill="#d0a84c"/>
+            <circle cx="0" cy="0" r="3" fill="#d0d5dc"/>
           </g>
           <g class="av-wheel av-wheel-f" data-cx="32" data-cy="40" transform="translate(32 40) rotate(0)">
-            <circle cx="0" cy="0" r="11" stroke="#d0a84c" stroke-width="2.5" fill="#0a0c10"/>
-            <line x1="0" y1="-10" x2="0" y2="10" stroke="#d0a84c" stroke-width="1.4"/>
-            <line x1="-10" y1="0" x2="10" y2="0" stroke="#d0a84c" stroke-width="1.4"/>
+            <circle cx="0" cy="0" r="11" stroke="#d0d5dc" stroke-width="2.5" fill="#0a0c10"/>
+            <line x1="0" y1="-10" x2="0" y2="10" stroke="#d0d5dc" stroke-width="1.4"/>
+            <line x1="-10" y1="0" x2="10" y2="0" stroke="#d0d5dc" stroke-width="1.4"/>
             <line x1="-7" y1="-7" x2="7" y2="7" stroke="#c4c9d4" stroke-width="1" opacity="0.8"/>
             <line x1="7" y1="-7" x2="-7" y2="7" stroke="#c4c9d4" stroke-width="1" opacity="0.8"/>
-            <circle cx="0" cy="0" r="3" fill="#d0a84c"/>
+            <circle cx="0" cy="0" r="3" fill="#d0d5dc"/>
           </g>
         </svg>
       </div>
       <div class="anime-vehicle anime-vehicle--car" data-vehicle="car" aria-hidden="true">
         <svg viewBox="0 0 130 56" fill="none">
-          <path d="M18 36 H112 Q118 36 118 30 L112 22 Q108 14 98 14 H48 Q36 14 30 22 L18 30 Q14 36 18 36 Z" fill="#1a1e28" stroke="#d0a84c" stroke-width="1.5"/>
-          <path d="M40 22 L48 14 H90 L100 22" fill="#0d0f14" stroke="#d0a84c" stroke-width="1"/>
-          <rect x="50" y="16" width="16" height="8" rx="1" fill="#d0a84c" opacity="0.25"/>
-          <rect x="72" y="16" width="16" height="8" rx="1" fill="#d0a84c" opacity="0.25"/>
-          <circle cx="112" cy="28" r="2" fill="#f3e6c0"/>
+          <path d="M18 36 H112 Q118 36 118 30 L112 22 Q108 14 98 14 H48 Q36 14 30 22 L18 30 Q14 36 18 36 Z" fill="#1a1e28" stroke="#d0d5dc" stroke-width="1.5"/>
+          <path d="M40 22 L48 14 H90 L100 22" fill="#0d0f14" stroke="#d0d5dc" stroke-width="1"/>
+          <rect x="50" y="16" width="16" height="8" rx="1" fill="#d0d5dc" opacity="0.25"/>
+          <rect x="72" y="16" width="16" height="8" rx="1" fill="#d0d5dc" opacity="0.25"/>
+          <circle cx="112" cy="28" r="2" fill="#f4f6f8"/>
           <g class="av-wheel av-wheel-r" data-cx="96" data-cy="40" transform="translate(96 40) rotate(0)">
-            <circle cx="0" cy="0" r="9" fill="#08090c" stroke="#d0a84c" stroke-width="2"/>
-            <line x1="0" y1="-7" x2="0" y2="7" stroke="#d0a84c" stroke-width="1.5"/>
-            <line x1="-7" y1="0" x2="7" y2="0" stroke="#d0a84c" stroke-width="1.5"/>
-            <line x1="-5" y1="-5" x2="5" y2="5" stroke="#8a6a2a" stroke-width="1.1"/>
-            <line x1="5" y1="-5" x2="-5" y2="5" stroke="#8a6a2a" stroke-width="1.1"/>
-            <circle cx="0" cy="0" r="2.6" fill="#d0a84c"/>
+            <circle cx="0" cy="0" r="9" fill="#08090c" stroke="#d0d5dc" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#d0d5dc" stroke-width="1.5"/>
+            <line x1="-7" y1="0" x2="7" y2="0" stroke="#d0d5dc" stroke-width="1.5"/>
+            <line x1="-5" y1="-5" x2="5" y2="5" stroke="#8d95a3" stroke-width="1.1"/>
+            <line x1="5" y1="-5" x2="-5" y2="5" stroke="#8d95a3" stroke-width="1.1"/>
+            <circle cx="0" cy="0" r="2.6" fill="#d0d5dc"/>
           </g>
           <g class="av-wheel av-wheel-f" data-cx="36" data-cy="40" transform="translate(36 40) rotate(0)">
-            <circle cx="0" cy="0" r="9" fill="#08090c" stroke="#d0a84c" stroke-width="2"/>
-            <line x1="0" y1="-7" x2="0" y2="7" stroke="#d0a84c" stroke-width="1.5"/>
-            <line x1="-7" y1="0" x2="7" y2="0" stroke="#d0a84c" stroke-width="1.5"/>
-            <line x1="-5" y1="-5" x2="5" y2="5" stroke="#8a6a2a" stroke-width="1.1"/>
-            <line x1="5" y1="-5" x2="-5" y2="5" stroke="#8a6a2a" stroke-width="1.1"/>
-            <circle cx="0" cy="0" r="2.6" fill="#d0a84c"/>
+            <circle cx="0" cy="0" r="9" fill="#08090c" stroke="#d0d5dc" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#d0d5dc" stroke-width="1.5"/>
+            <line x1="-7" y1="0" x2="7" y2="0" stroke="#d0d5dc" stroke-width="1.5"/>
+            <line x1="-5" y1="-5" x2="5" y2="5" stroke="#8d95a3" stroke-width="1.1"/>
+            <line x1="5" y1="-5" x2="-5" y2="5" stroke="#8d95a3" stroke-width="1.1"/>
+            <circle cx="0" cy="0" r="2.6" fill="#d0d5dc"/>
           </g>
         </svg>
       </div>
 
       <div class="anime-runner-body" aria-hidden="true">
-        <!-- Unfiltered anime guy: messy hair, leather jacket, smirk, gold accents -->
+        <!-- Unfiltered anime guy: messy hair, leather jacket, smirk, silver accents -->
         <svg class="anime-runner-svg" viewBox="0 0 64 84" fill="none" xmlns="http://www.w3.org/2000/svg">
           <!-- Legs -->
           <g class="ar-leg ar-leg-l">
             <rect x="23" y="54" width="7" height="18" rx="3" fill="#0c0e12"/>
             <rect x="21" y="69" width="11" height="5" rx="2" fill="#1a1e28"/>
-            <rect x="21" y="72" width="11" height="2" rx="1" fill="#d0a84c"/>
+            <rect x="21" y="72" width="11" height="2" rx="1" fill="#d0d5dc"/>
           </g>
           <g class="ar-leg ar-leg-r">
             <rect x="34" y="54" width="7" height="18" rx="3" fill="#12151c"/>
             <rect x="32" y="69" width="11" height="5" rx="2" fill="#1a1e28"/>
-            <rect x="32" y="72" width="11" height="2" rx="1" fill="#e4c98a"/>
+            <rect x="32" y="72" width="11" height="2" rx="1" fill="#e2e6ec"/>
           </g>
 
           <!-- Leather jacket body -->
           <path class="ar-cape ar-jacket-tail" d="M18 38 C12 44 10 58 14 68 C18 60 20 50 24 42 Z" fill="#0a0c10" opacity="0.9"/>
           <path d="M20 34 L32 32 L44 34 L46 54 Q44 60 32 60 Q20 60 18 54 Z" fill="#141820"/>
           <!-- Gold zipper + collar -->
-          <path d="M32 34 V58" stroke="#d0a84c" stroke-width="1.4" stroke-linecap="round"/>
-          <circle cx="32" cy="38" r="1.2" fill="#f3e6c0"/>
-          <circle cx="32" cy="44" r="1.2" fill="#f3e6c0"/>
-          <circle cx="32" cy="50" r="1.2" fill="#f3e6c0"/>
-          <path d="M22 34 L32 30 L42 34" stroke="#d0a84c" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+          <path d="M32 34 V58" stroke="#d0d5dc" stroke-width="1.4" stroke-linecap="round"/>
+          <circle cx="32" cy="38" r="1.2" fill="#f4f6f8"/>
+          <circle cx="32" cy="44" r="1.2" fill="#f4f6f8"/>
+          <circle cx="32" cy="50" r="1.2" fill="#f4f6f8"/>
+          <path d="M22 34 L32 30 L42 34" stroke="#d0d5dc" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
           <!-- Inner shirt -->
           <path d="M28 36 L32 42 L36 36" fill="#1a1420"/>
 
@@ -247,7 +247,7 @@
           <path d="M18 16 C16 22 18 28 22 30 L20 16 Z" fill="#0d0f14"/>
           <path d="M46 16 C48 22 46 28 42 30 L44 16 Z" fill="#0d0f14"/>
           <!-- Gold hair streak -->
-          <path d="M30 4 C32 0 36 1 37 6 C34 4 31 4 30 4 Z" fill="#d0a84c" opacity="0.85"/>
+          <path d="M30 4 C32 0 36 1 37 6 C34 4 31 4 30 4 Z" fill="#d0d5dc" opacity="0.85"/>
 
           <!-- Sharp half-lidded eyes -->
           <path d="M24 20 L29 19.5" stroke="#1a1420" stroke-width="1.6" stroke-linecap="round"/>
@@ -257,15 +257,15 @@
           <circle cx="27.2" cy="21.7" r="0.75" fill="#fff"/>
           <circle cx="38.2" cy="21.7" r="0.75" fill="#fff"/>
           <!-- Gold iris glint -->
-          <circle cx="26.2" cy="23" r="0.55" fill="#d0a84c" opacity="0.7"/>
-          <circle cx="37.2" cy="23" r="0.55" fill="#d0a84c" opacity="0.7"/>
+          <circle cx="26.2" cy="23" r="0.55" fill="#d0d5dc" opacity="0.7"/>
+          <circle cx="37.2" cy="23" r="0.55" fill="#d0d5dc" opacity="0.7"/>
 
           <!-- Cocky smirk -->
           <path class="ar-mouth" d="M27 28 Q32 31.5 38 27.5" stroke="#b56a58" stroke-width="1.5" stroke-linecap="round" fill="none"/>
 
           <!-- Earring -->
-          <circle cx="45.5" cy="24" r="1.4" fill="none" stroke="#d0a84c" stroke-width="1.1"/>
-          <circle cx="45.5" cy="26.5" r="0.7" fill="#d0a84c"/>
+          <circle cx="45.5" cy="24" r="1.4" fill="none" stroke="#d0d5dc" stroke-width="1.1"/>
+          <circle cx="45.5" cy="26.5" r="0.7" fill="#d0d5dc"/>
 
           <!-- Brow scar / mark -->
           <path d="M24 17 L27 16" stroke="#c9a08a" stroke-width="0.9" stroke-linecap="round" opacity="0.7"/>

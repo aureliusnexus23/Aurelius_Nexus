@@ -5,7 +5,7 @@
    ============================================ */
 
 :root {
-  /* Surfaces — 4-color restraint: ink, surface, ivory, gold */
+  /* Surfaces — 4-color restraint: ink, surface, ivory, silver */
   --bg-0: #08090c;
   --bg-1: #0d0f14;
   --bg-2: #12151c;
@@ -14,14 +14,14 @@
   --surface-hi: rgba(232, 236, 244, 0.06);
   --surface-glass: rgba(8, 9, 12, 0.78);
 
-  /* Accent gold — single brand signal (WCAG-aware on dark) */
-  --gold-50: #f3e6c0;
-  --gold-100: #e4c98a;
-  --gold-200: #d4b26a;
-  --gold: #d0a84c;
-  --gold-deep: #9a7428;
-  --gold-shadow: rgba(208, 168, 76, 0.18);
-  --gold-glow: rgba(208, 168, 76, 0.32);
+  /* Accent silver — single brand signal (WCAG-aware on dark) */
+  --gold-50: #f4f6f8;
+  --gold-100: #e2e6ec;
+  --gold-200: #c5ccd6;
+  --gold: #d0d5dc;
+  --gold-deep: #8d95a3;
+  --gold-shadow: rgba(200, 208, 218, 0.18);
+  --gold-glow: rgba(200, 208, 218, 0.32);
 
   /* Text — ivory-3 tuned ≥4.5:1 on bg-0 */
   --ivory: #eef1f6;
@@ -30,13 +30,13 @@
   --ivory-4: #6b7382;
 
   /* Semantic */
-  --line: rgba(212, 178, 106, 0.14);
-  --line-strong: rgba(212, 178, 106, 0.32);
-  --line-soft: rgba(255, 248, 230, 0.06);
+  --line: rgba(197, 204, 214, 0.14);
+  --line-strong: rgba(197, 204, 214, 0.32);
+  --line-soft: rgba(236, 240, 246, 0.06);
   --danger: #e07070;
   --danger-bg: rgba(224, 112, 112, 0.1);
   --success: #7dba8a;
-  --focus: rgba(201, 163, 90, 0.55);
+  --focus: rgba(190, 198, 210, 0.55);
 
   /* Radius */
   --r-sm: 4px;
@@ -459,14 +459,14 @@ section { position: relative; }
   border: 1px solid var(--line-strong);
   border-radius: 999px;
   color: var(--ivory);
-  background: linear-gradient(180deg, rgba(212,178,106,0.08), transparent);
+  background: linear-gradient(180deg, rgba(197,204,214,0.08), transparent);
   min-height: 44px;
 }
 .nav-links a.cta:hover,
 .nav-links a.cta[aria-current="page"] {
   border-color: var(--gold);
   color: var(--gold);
-  background: linear-gradient(180deg, rgba(212,178,106,0.15), transparent);
+  background: linear-gradient(180deg, rgba(197,204,214,0.15), transparent);
 }
 .nav-links a.cta::after { display: none; }
 
@@ -609,8 +609,8 @@ section { position: relative; }
   inset: 0;
   z-index: 1;
   background:
-    radial-gradient(ellipse 60% 50% at 50% 45%, rgba(201,163,90,0.12), transparent 70%),
-    radial-gradient(ellipse 40% 40% at 70% 30%, rgba(212,178,106,0.06), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 50% 45%, rgba(190,198,210,0.12), transparent 70%),
+    radial-gradient(ellipse 40% 40% at 70% 30%, rgba(197,204,214,0.06), transparent 60%),
     var(--bg-0);
   display: none;
 }
@@ -625,9 +625,9 @@ section { position: relative; }
   border: 1px solid var(--line);
   border-radius: 50%;
   box-shadow:
-    0 0 0 40px rgba(201,163,90,0.03),
-    0 0 0 80px rgba(201,163,90,0.02),
-    inset 0 0 60px rgba(201,163,90,0.08);
+    0 0 0 40px rgba(190,198,210,0.03),
+    0 0 0 80px rgba(190,198,210,0.02),
+    inset 0 0 60px rgba(190,198,210,0.08);
   animation: slowSpin 40s linear infinite;
 }
 
@@ -638,7 +638,7 @@ section { position: relative; }
   pointer-events: none;
   background:
     radial-gradient(ellipse 80% 60% at 50% 50%, transparent 0%, rgba(7,7,10,0.4) 70%, var(--bg-0) 100%),
-    radial-gradient(ellipse at top, rgba(212,178,106,0.06), transparent 60%);
+    radial-gradient(ellipse at top, rgba(197,204,214,0.06), transparent 60%);
 }
 .hero-grid-overlay {
   position: absolute;
@@ -668,7 +668,7 @@ section { position: relative; }
   padding: 8px 18px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(255, 248, 230, 0.03);
+  background: rgba(236, 240, 246, 0.03);
   backdrop-filter: blur(8px);
   font-family: 'JetBrains Mono', monospace;
   font-size: 10.5px;
@@ -1116,15 +1116,15 @@ html.js .hero-marks {
 .work-card:hover .work-visual-art { transform: scale(1.05); }
 .work-art-1 {
   background:
-    radial-gradient(ellipse 50% 40% at 30% 40%, rgba(201,163,90,0.35), transparent 60%),
-    radial-gradient(ellipse 40% 50% at 70% 60%, rgba(212,178,106,0.15), transparent 55%),
+    radial-gradient(ellipse 50% 40% at 30% 40%, rgba(190,198,210,0.35), transparent 60%),
+    radial-gradient(ellipse 40% 50% at 70% 60%, rgba(197,204,214,0.15), transparent 55%),
     linear-gradient(145deg, #0e0e14 0%, #1a1520 50%, #0a0a0e 100%);
 }
 .work-art-1::before {
   content: '';
   position: absolute;
   inset: 18%;
-  border: 1px solid rgba(201,163,90,0.25);
+  border: 1px solid rgba(190,198,210,0.25);
   border-radius: 12px;
   transform: rotate(-6deg);
 }
@@ -1132,16 +1132,16 @@ html.js .hero-marks {
   content: '';
   position: absolute;
   inset: 28%;
-  border: 1px solid rgba(201,163,90,0.15);
+  border: 1px solid rgba(190,198,210,0.15);
   border-radius: 8px;
   transform: rotate(4deg);
 }
 .work-art-2 {
   background:
     linear-gradient(180deg, transparent 40%, rgba(7,7,10,0.8)),
-    repeating-linear-gradient(90deg, transparent, transparent 48px, rgba(201,163,90,0.06) 48px, rgba(201,163,90,0.06) 49px),
-    repeating-linear-gradient(0deg, transparent, transparent 32px, rgba(201,163,90,0.04) 32px, rgba(201,163,90,0.04) 33px),
-    radial-gradient(ellipse at 50% 80%, rgba(201,163,90,0.2), transparent 50%),
+    repeating-linear-gradient(90deg, transparent, transparent 48px, rgba(190,198,210,0.06) 48px, rgba(190,198,210,0.06) 49px),
+    repeating-linear-gradient(0deg, transparent, transparent 32px, rgba(190,198,210,0.04) 32px, rgba(190,198,210,0.04) 33px),
+    radial-gradient(ellipse at 50% 80%, rgba(190,198,210,0.2), transparent 50%),
     #0c0c12;
 }
 .work-art-2::after {
@@ -1151,18 +1151,18 @@ html.js .hero-marks {
   height: 40%;
   background: linear-gradient(90deg,
     transparent 0%,
-    rgba(201,163,90,0.5) 15%,
-    rgba(201,163,90,0.15) 40%,
-    rgba(212,178,106,0.7) 55%,
-    rgba(201,163,90,0.2) 80%,
+    rgba(190,198,210,0.5) 15%,
+    rgba(190,198,210,0.15) 40%,
+    rgba(197,204,214,0.7) 55%,
+    rgba(190,198,210,0.2) 80%,
     transparent 100%);
   clip-path: polygon(0 70%, 15% 40%, 30% 55%, 45% 20%, 60% 45%, 75% 10%, 90% 35%, 100% 50%, 100% 100%, 0 100%);
   opacity: 0.85;
 }
 .work-art-3 {
   background:
-    radial-gradient(circle at 50% 50%, rgba(201,163,90,0.12), transparent 45%),
-    conic-gradient(from 180deg at 50% 50%, transparent, rgba(201,163,90,0.15), transparent 40%, rgba(212,178,106,0.1), transparent 70%),
+    radial-gradient(circle at 50% 50%, rgba(190,198,210,0.12), transparent 45%),
+    conic-gradient(from 180deg at 50% 50%, transparent, rgba(190,198,210,0.15), transparent 40%, rgba(197,204,214,0.1), transparent 70%),
     #0b0b10;
 }
 .work-art-3::before,
@@ -1170,12 +1170,12 @@ html.js .hero-marks {
   content: '';
   position: absolute;
   top: 50%; left: 50%;
-  border: 1px solid rgba(201,163,90,0.3);
+  border: 1px solid rgba(190,198,210,0.3);
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
 .work-art-3::before { width: 55%; height: 55%; }
-.work-art-3::after { width: 30%; height: 30%; border-color: rgba(201,163,90,0.5); }
+.work-art-3::after { width: 30%; height: 30%; border-color: rgba(190,198,210,0.5); }
 
 /* Intentional product UI mockups (not stock photography) */
 .product-frame {
@@ -1269,7 +1269,7 @@ html.js .hero-marks {
   border-radius: 8px;
   border: 1px solid var(--line-soft);
   background:
-    linear-gradient(180deg, transparent 60%, rgba(208,168,76,0.08)),
+    linear-gradient(180deg, transparent 60%, rgba(200,208,218,0.08)),
     repeating-linear-gradient(90deg, transparent, transparent 18px, rgba(255,255,255,0.03) 18px, rgba(255,255,255,0.03) 19px);
   position: relative;
   overflow: hidden;
@@ -1477,7 +1477,7 @@ html.js .hero-marks {
 }
 .price-card.featured {
   border-color: var(--gold);
-  background: linear-gradient(180deg, rgba(212, 178, 106, 0.08), var(--bg-2));
+  background: linear-gradient(180deg, rgba(197, 204, 214, 0.08), var(--bg-2));
   box-shadow: 0 20px 60px -20px var(--gold-shadow), 0 0 0 1px var(--gold-shadow) inset;
 }
 .price-card.featured::after {
@@ -2106,7 +2106,7 @@ html:not(.js) .reveal {
   inset: 0;
   background:
     radial-gradient(circle at 15% 30%, var(--gold-shadow), transparent 50%),
-    radial-gradient(circle at 85% 70%, rgba(212,178,106,0.08), transparent 50%);
+    radial-gradient(circle at 85% 70%, rgba(197,204,214,0.08), transparent 50%);
   pointer-events: none;
 }
 .page-head::after {
@@ -2206,8 +2206,8 @@ html:not(.js) .reveal {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 20% 20%, rgba(212,178,106,0.08), transparent 40%),
-    radial-gradient(circle at 80% 80%, rgba(212,178,106,0.05), transparent 40%);
+    radial-gradient(circle at 20% 20%, rgba(197,204,214,0.08), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(197,204,214,0.05), transparent 40%);
 }
 .journey-bg-canvas {
   position: absolute;
@@ -2588,9 +2588,9 @@ html:not(.js) .reveal {
 }
 .anime-runner--unfiltered .anime-name {
   letter-spacing: 0.2em;
-  background: linear-gradient(135deg, #d0a84c 0%, #e4c98a 50%, #a8842e 100%);
+  background: linear-gradient(135deg, #d0d5dc 0%, #e2e6ec 50%, #8d95a3 100%);
   color: #08090c;
-  box-shadow: 0 0 0 1px rgba(208, 168, 76, 0.35), 0 4px 16px rgba(208, 168, 76, 0.35);
+  box-shadow: 0 0 0 1px rgba(200, 208, 218, 0.35), 0 4px 16px rgba(200, 208, 218, 0.35);
 }
 
 .anime-runner-svg {
@@ -2678,7 +2678,7 @@ html:not(.js) .reveal {
   z-index: 4;
 }
 .anime-runner.is-cycling .anime-name {
-  box-shadow: 0 0 0 1px rgba(208, 168, 76, 0.35), 0 4px 12px var(--gold-shadow);
+  box-shadow: 0 0 0 1px rgba(200, 208, 218, 0.35), 0 4px 12px var(--gold-shadow);
 }
 .anime-runner.is-riding .anime-name {
   background: var(--gold-100);
@@ -2714,7 +2714,7 @@ html:not(.js) .reveal {
 }
 /* Unfiltered NX: slightly sharper bubble */
 .anime-runner--unfiltered .anime-bubble {
-  border-color: rgba(208, 168, 76, 0.45);
+  border-color: rgba(200, 208, 218, 0.45);
   background: linear-gradient(160deg, #12151c 0%, #0a0c10 100%);
 }
 .anime-runner--unfiltered .anime-bubble-text {
@@ -2838,7 +2838,7 @@ html:not(.js) .reveal {
 
 /* Smirk pop when happy / hover */
 .anime-runner.is-happy .ar-mouth {
-  stroke: #d0a84c;
+  stroke: #d0d5dc;
 }
 
 .anime-runner.is-arrive .anime-runner-svg {
